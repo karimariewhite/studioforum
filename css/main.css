@@ -138,6 +138,7 @@ img {
 
 body {
     font-family: 'Work Sans', sans-serif;
+    font-size: .9em;
 }
 
 
@@ -148,12 +149,26 @@ body {
    ====================================================== */
 
 
+#page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 72px;
+    padding: 22px 35px 0 35px;
+    z-index: 100;
+}
 
+#header-logo {
+    width: 200px;
+    float: right;
+}
 
-
-
-
-
+#nav-icon {
+    width: 30px;
+    position: fixed;
+}
 
 
 /* ======================================================
