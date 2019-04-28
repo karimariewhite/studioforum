@@ -12,6 +12,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Work+Sans:300,400,500,600,700" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 
@@ -27,7 +28,7 @@
 <!-- Main Nav Swipe Over
 ========================================================================================-->
 
-<nav id="main-nav" class="hidden">
+<nav id="main-nav">
   <img class="nav-icon" src="img/sf-hamburger-nav-close.png" alt="close navigation">
   <ul>
     <a href="#"><li>Home</li></a>
@@ -39,7 +40,7 @@
   </ul>
 </nav>
 
-<div id="page-content"> <!-- everything inside is content hidden by nav swipe over -->
+<div id="page-content" class="hidden"> <!-- everything inside is content hidden by nav swipe over -->
 
   <!-- Fixed Header
   ====================================================================================== -->
@@ -55,10 +56,17 @@
   <!-- Fixed Left Bar 
   =======================================================================================-->
 
-  <aside id="left-bar">
-    <a href=""><img src="img/sf_insta-grey.png" alt="Instagram Icon"></a>
-    <a href=""><img src="img/sf_twitter-grey.png" alt="Twitter Icon"></a>
-    <a href=""><img src="img/sf_fb-grey.png" alt="Instagram Icon"></a>
+  <aside>
+    <div id="left-bar-social">
+      <a href=""><div class="insta-icon"></div></a>
+      <a href=""><div class="tw-icon"></div></a>
+      <a href=""><div class="fb-icon"></div></a>
+
+
+    </div>
+    <div id="left-bar-email">
+      <a href="mailto:info@studioforum.ca">info@studioforum.ca</a>
+    </div> 
   </aside>
 
 
@@ -139,7 +147,7 @@
     <div class="social-icons">
       <img src="img/studio-forum-logo.png" alt="Studio Forum Logo">
       <ul>
-        <li>>@studio_forum</li>
+        <li>@studio_forum</li>
         <li><a href="#!"><img src="img/sf_insta_k.png" alt="Instragram Icon"></a></li>
         <li><a href="#!"><img src="img/sf_twitter_k.png" alt="Twitter Icon"></a></li>
         <li><a href="#!"><img src="img/sf_li_k.png" alt="LinkedIn Icon"></a></li>
