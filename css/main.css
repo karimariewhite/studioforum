@@ -143,10 +143,6 @@ body {
     font-weight: 400;
 }
 
-#page-content {
-    padding-left: 100px;
-}
-
 h2 {
     font-weight: 600;
     font-size: 2.5em;
@@ -170,15 +166,41 @@ p {
     margin: .75em 0;
 }
 
-.section {
-    padding: 100px;
+.button {
+    text-decoration: none;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    padding: 1.25em 3.5em;
+    color: #000;
+    font-size: .5em;
+    letter-spacing: .25em;
+    font-weight: 500;
+}
+
+    .button:hover {
+        background-color: #a2fdda;
+        border: 1px solid #a2fdda;
+    }
+
+.content-box {
+    padding: 3em;
+    float: left;
+    width: 50%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.page-section {
+    padding: 50px 100px;
 }
 
 /* ======================================================
    Logo in Top Right - Above all
    ====================================================== */
 
-#header-logo {
+.sf-logo {
     position: fixed;
     top: 22px;
     Right: 35px;
@@ -354,20 +376,11 @@ p {
     overflow: hidden;
 }
 
-.paint-box-frame-content {
+.paint-box-text {
     background-color: #eff7fa;
     padding: 3em;
     margin: 1em;
 }
-
-
-
-
-
-
-
-
-
 
 /* ======================================================
    Hero Section
@@ -390,8 +403,32 @@ p {
         top: 0;
     }
 
-.hero-img {
+    .hero-img {
+        position: relative;
+    }
+
+
+/* ======================================================
+   Case Study Section
+   ====================================================== */
+
+.case-study {
     position: relative;
+    width: 100%;
+}
+
+    .case-study a {
+        color: #000;
+    }
+
+.link-box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #fff;
+    border-bottom: 10px solid #000;
+    padding: 50px;
+    width: 33%;
 }
 
 
@@ -399,9 +436,160 @@ p {
 
 
 
+/* ======================================================
+   Our Services Section
+   ====================================================== */
+
+.service-icons {
+    width: 50%;
+    float: left;
+}
+
+    .service-icons figure {
+        width: 30%;
+        float: left;
+        padding-right: 10px;
+        margin: 0;
+    }
+
+    .service-icons img {
+        width: 75%;
+        margin: 0 auto;
+    }
 
 
 
+
+/* ======================================================
+   Project Section
+   ====================================================== */
+
+.project {
+    position: relative;
+    float: left;
+    width: 33%;
+    height: 550px;
+    background-color: hsla(182, 1%, 5%, 0.42);
+}
+
+    .project-desc {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 50px;
+    }
+
+    .project img {
+        position: relative;
+        z-index: -10;
+    }
+
+    .project:hover {
+        background-color: hsla(167, 100%, 50%, 0.53);
+    }
+
+    .project:hover {
+        color: #000;
+    }
+
+    .project .h3-border {
+        border-color: #fff;
+    }
+
+    .project:hover .h3-border {
+        border-color: #000;
+    }
+
+
+.portfolio a {
+    color: #fff;
+}
+
+/* ======================================================
+   Reviews Section
+   ====================================================== */
+
+.reviews {
+    background-color: #000;
+    background-image: url(../img/sf-paint-quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: right -200px top -100px;
+    width: 100%;
+    color: #fff;
+    height: 300px;
+}
+
+    .reviews p {
+        font-size: 2em;
+    }
+
+    .reviews .h3-border {
+        border-color: #fff;
+    }
+
+    .reviews .button {
+        color: #fff;
+        border-color: #fff;
+    }
+
+/* ======================================================
+   Social Icons Section
+   ====================================================== */
+
+.social-icons {
+    margin: 0 100px;
+    border-bottom: 1px solid #000;
+    padding: 50px;
+}
+
+    .social-icons .sf-logo {
+        position: relative;
+        width: 200px;
+        float: left;
+    }
+
+    .social-icons ul {
+        list-style-type: none;
+        float: right;
+    }
+
+    .social-icons li {
+        display: inline-block;
+    }
+
+    .social-icons li img {
+        width: 30px;
+    }
+
+
+
+/* ======================================================
+   Footer Section
+   ====================================================== */
+
+.page-footer .content-box {
+    width: 25%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/* ======================================================
+   Special Classes
+   ====================================================== */
+
+    .col-1-2 .content-box {
+        width: 50%;
+    }
+
+    .col-1-4 .content-box {
+
+    }
 
 
  /* ==========================================================================
