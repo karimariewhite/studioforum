@@ -356,7 +356,7 @@ p {
 
 .paint-box-frame-content {
     background-color: #eff7fa;
-    padding: 3em 6em 3em 3em;
+    padding: 3em;
     margin: 1em;
 }
 
@@ -373,14 +373,26 @@ p {
    Hero Section
    ====================================================== */
 
+
 .hero {
     position: relative;
     height: 650px;
-    padding: 70px;
+    overflow: hidden;
 }
 
+    .hero .hero-img {
+        position: absolute;
+        right: 0;
+    }
 
+    .hero .paint-box-frame {
+        position: absolute;
+        top: 0;
+    }
 
+.hero-img {
+    position: relative;
+}
 
 
 
