@@ -428,23 +428,31 @@ figcaption {
 
 .case-study {
     position: relative;
-    max-width: 100%;
+    max-height: 575px;
+    margin-bottom: 200px;
 }
 
     .case-study a {
         color: #000;
     }
 
+    .case-study img {
+        width: 100%;
+    }
+
 .link-box {
     position: absolute;
-    top: 50px;
+    top: 20%;
     left: 50px;
     background-color: #fff;
-    border-bottom: 10px solid #000;
+    border-bottom: 15px solid #000;
     padding: 50px;
     width: 33%;
 }
 
+.link-box:hover {
+    border-bottom: 15px solid #a2fdda;
+}
 
 
 
