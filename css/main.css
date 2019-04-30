@@ -206,6 +206,8 @@ figcaption {
 
 .page-section {
     padding: 50px 100px;
+    max-width: 1775px;
+    margin: auto;
 }
 
 /* ======================================================
@@ -426,7 +428,7 @@ figcaption {
 
 .case-study {
     position: relative;
-    width: 100%;
+    max-width: 100%;
 }
 
     .case-study a {
@@ -529,6 +531,7 @@ figcaption {
     width: 100%;
     color: #fff;
     height: 300px;
+    padding: 50px 100px;
 }
 
     .reviews p {
