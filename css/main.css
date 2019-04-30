@@ -375,19 +375,49 @@ figcaption {
         background-color: #fff;
     }
 
-
-
 /* ======================================================
-   Paint Box Frame - used on other pages
+   Hero Section
+   
+   Needed a refresher on background positionining to 
+   accomplisth this: 
+   https://css-tricks.com/almanac/properties/b/background-position/
    ====================================================== */
 
+
+.hero {
+    background-image: url(../img/sf-creating-confident-brands-hero.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 60%;
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+}
+
+    .hero .paint-box-frame {
+        position: absolute;
+        top: 0;
+    }
+
+.decorative-line {
+    position: absolute;
+    height: 20px;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid black;
+}
+
 .paint-box-frame {
-    width: 50%;
+    position: absolute;
+    top: 75%;
+    right: 50%;
+    width: 40%;
     background-image: url(../img/sf-paint-swash.png);
     background-repeat: no-repeat;
     background-size: 1400px;
     background-position: right -100px top -335px;
     overflow: hidden;
+    z-index: -1;
 }
 
 .paint-box-text {
@@ -395,32 +425,6 @@ figcaption {
     padding: 3em;
     margin: 1em;
 }
-
-/* ======================================================
-   Hero Section
-   ====================================================== */
-
-
-.hero {
-    position: relative;
-    height: 650px;
-    overflow: hidden;
-}
-
-    .hero .hero-img {
-        position: absolute;
-        right: 0;
-    }
-
-    .hero .paint-box-frame {
-        position: absolute;
-        top: 0;
-    }
-
-    .hero-img {
-        position: relative;
-    }
-
 
 /* ======================================================
    Case Study Section
