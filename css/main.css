@@ -104,7 +104,7 @@ textarea {
 
     /* Site Colors ===
 
-    lt grey: #f6f7f9
+    lt grey: #f8f9fc
     Mint: #a2fdda
     med grey: #959595
     dk grey: #333333
@@ -125,7 +125,7 @@ textarea {
 
 html {
     box-sizing: border-box;
-    background-color: #eff7fa;
+    background-color: #f8f9fc;
 }
 
 *, *:before, *:after {
@@ -391,7 +391,7 @@ figcaption {
 }
 
 .paint-box-text {
-    background-color: #eff7fa;
+    background-color: #f8f9fc;
     padding: 3em;
     margin: 1em;
 }
