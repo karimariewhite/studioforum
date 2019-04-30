@@ -182,10 +182,16 @@ p {
         border: 1px solid #a2fdda;
     }
 
-.content-box {
+.float-1-2-box {
     padding: 3em;
     float: left;
     width: 50%;
+}
+
+.float-1-3-box {
+    padding: 3em;
+    float: left;
+    width: 33%;
 }
 
 figcaption {
@@ -567,7 +573,7 @@ figcaption {
    Footer Section
    ====================================================== */
 
-.page-footer .content-box {
+.page-footer .float-1-2-box {
     width: 25%;
     float: left;
     margin: 0;
@@ -583,13 +589,7 @@ figcaption {
    Special Classes
    ====================================================== */
 
-    .col-1-2 .content-box {
-        width: 50%;
-    }
 
-    .col-1-4 .content-box {
-
-    }
 
 
  /* ==========================================================================
@@ -679,16 +679,16 @@ figcaption {
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
+    @media only screen and (min-width: 35em) {
+        /* Style adjustments for viewports that meet the condition */
+    }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
+    @media print,
+        (-webkit-min-device-pixel-ratio: 1.25),
+        (min-resolution: 1.25dppx),
+        (min-resolution: 120dpi) {
+        /* Style adjustments for high resolution devices */
+    }
 
  
 /* ==========================================================================
