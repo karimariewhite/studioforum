@@ -186,13 +186,12 @@ h3 {
     }
 
 .float-1-2-box {
-    padding-right: 60px;
+    padding-left: 60px;
     float: left;
     width: 50%;
 }
 
 .float-1-4-box {
-    padding: 3em;
     float: left;
     width: 25%;
 }
@@ -530,15 +529,18 @@ figcaption {
 
     .project img {
         position: relative;
+        max-height: 100%;
         z-index: -10;
     }
 
     .project:hover {
+        color: #000;
         background-color: hsla(167, 100%, 50%, 0.53);
+        width: 
     }
 
     .project:hover {
-        color: #000;
+        
     }
 
     .project .h3-border {
@@ -587,20 +589,21 @@ figcaption {
    ====================================================== */
 
 .social-icons {
-    margin: 0 100px;
+    width: 80%;
+    max-width: 1775px;
+    margin: auto;
+    padding: 100px 50px 75px 0;
     border-bottom: 1px solid #000;
-    padding: 50px;
 }
 
-    .social-icons .sf-logo {
-        position: relative;
-        width: 200px;
-        float: left;
-    }
+img.footer-logo {
+    width: 200px;
+    float: left;
+}
 
     .social-icons ul {
         list-style-type: none;
-        float: right;
+        float: left;
     }
 
     .social-icons li {
@@ -612,16 +615,15 @@ figcaption {
     }
 
 
-
 /* ======================================================
    Footer Section
    ====================================================== */
 
-.page-footer .float-1-4-box {
-    width: 25%;
-    float: left;
-    margin: 0;
-    padding: 0 30px 0 0;
+.page-footer {
+    padding: 25px 0;
+    width: 80%;
+    max-width: 1775px;
+    margin: 0 auto;
 }
 
 
