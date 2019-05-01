@@ -404,8 +404,7 @@ figcaption {
 
     .hero .paint-box-frame {
         position: absolute;
-        right: 55%;
-        margin-top: 200px;
+        margin: 100px 10%;
     }
 
 .decorative-line {
