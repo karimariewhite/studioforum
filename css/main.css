@@ -375,30 +375,7 @@ figcaption {
         background-color: #fff;
     }
 
-<<<<<<< HEAD
-=======
 
-
-/* ======================================================
-   Paint Box Frame - used on other pages
-   ====================================================== */
-
-.paint-box-frame {
-    width: 50%;
-    background-image: url(../img/sf-paint-swash.png);
-    background-repeat: no-repeat;
-    background-size: 1400px;
-    background-position: right -100px top -335px;
-    overflow: hidden;
-}
-
-.paint-box-text {
-    background-color: #eff7fa;
-    padding: 3em;
-    margin: 1em;
-}
-
->>>>>>> parent of 4dc4bb4... corrected background color; added div for horizontal rule
 /* ======================================================
    Hero Section
    
@@ -409,18 +386,25 @@ figcaption {
 
 
 .hero {
-    background-image: url(../img/sf-creating-confident-brands-hero.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 60%;
     position: relative;
-    height: 650px;
+    min-height: 650px;
     overflow: hidden;
 }
 
-    .hero .paint-box-frame {
+    .hero .hero-img {
         position: absolute;
         top: 0;
+        right: 0;
+    }
+
+    .hero-img {
+        height: 100%;
+    }
+
+    .hero .paint-box-frame {
+        position: absolute;
+        right: 55%;
+        margin-top: 200px;
     }
 
 .decorative-line {
@@ -432,9 +416,7 @@ figcaption {
 }
 
 .paint-box-frame {
-    position: absolute;
-    top: 75%;
-    right: 50%;
+    position: relative;
     width: 40%;
     background-image: url(../img/sf-paint-swash.png);
     background-repeat: no-repeat;
@@ -444,11 +426,14 @@ figcaption {
     z-index: -1;
 }
 
-.paint-box-text {
-    background-color: #f8f9fc;
-    padding: 3em;
-    margin: 1em;
-}
+    .paint-box-text {
+        background-color: #f8f9fc;
+        padding: 50px 30% 50px 50px;
+        margin: 1em;
+    }
+
+
+
 
 /* ======================================================
    Case Study Section
