@@ -104,7 +104,7 @@ textarea {
 
     /* Site Colors ===
 
-    lt grey: #f8f9fc
+    lt grey: #f6f7f9
     Mint: #a2fdda
     med grey: #959595
     dk grey: #333333
@@ -125,7 +125,7 @@ textarea {
 
 html {
     box-sizing: border-box;
-    background-color: #f8f9fc;
+    background-color: #eff7fa;
 }
 
 *, *:before, *:after {
@@ -375,6 +375,30 @@ figcaption {
         background-color: #fff;
     }
 
+<<<<<<< HEAD
+=======
+
+
+/* ======================================================
+   Paint Box Frame - used on other pages
+   ====================================================== */
+
+.paint-box-frame {
+    width: 50%;
+    background-image: url(../img/sf-paint-swash.png);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    background-position: right -100px top -335px;
+    overflow: hidden;
+}
+
+.paint-box-text {
+    background-color: #eff7fa;
+    padding: 3em;
+    margin: 1em;
+}
+
+>>>>>>> parent of 4dc4bb4... corrected background color; added div for horizontal rule
 /* ======================================================
    Hero Section
    
