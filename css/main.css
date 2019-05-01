@@ -105,6 +105,7 @@ textarea {
     /* Site Colors ===
 
     lt grey: #f6f7f9
+    f8f9fc
     Mint: #a2fdda
     med grey: #959595
     dk grey: #333333
@@ -125,7 +126,7 @@ textarea {
 
 html {
     box-sizing: border-box;
-    background-color: #eff7fa;
+    background-color: #f8f9fc;
 }
 
 *, *:before, *:after {
@@ -409,7 +410,8 @@ figcaption {
 
 .decorative-line {
     position: absolute;
-    height: 20px;
+    height: 1px;
+    width: 30%;
     left: 0;
     bottom: 0;
     border-bottom: 1px solid black;
