@@ -514,8 +514,7 @@ figcaption {
 
 .project {
     position: relative;
-    float: left;
-    width: 33%;
+    display: flex;
     height: 550px;
     background-color: hsla(182, 1%, 5%, 0.42);
 }
@@ -528,19 +527,13 @@ figcaption {
     }
 
     .project img {
-        position: relative;
-        max-height: 100%;
+        min-width: 100%;
         z-index: -10;
     }
 
     .project:hover {
         color: #000;
         background-color: hsla(167, 100%, 50%, 0.53);
-        width: 
-    }
-
-    .project:hover {
-        
     }
 
     .project .h3-border {
@@ -551,6 +544,10 @@ figcaption {
         border-color: #000;
     }
 
+.portfolio {
+    max-width: 1500px;
+    display: flex;
+}
 
 .portfolio a {
     color: #fff;
@@ -589,6 +586,7 @@ figcaption {
    ====================================================== */
 
 .social-icons {
+    position: relative;
     width: 80%;
     max-width: 1775px;
     margin: auto;
@@ -601,16 +599,22 @@ img.footer-logo {
     float: left;
 }
 
-    .social-icons ul {
+.icon-grp {
+    float: right;
+    display: inline-block;
+    margin-right: 0;
+}
+
+    .icon-grp ul {
         list-style-type: none;
         float: left;
     }
 
-    .social-icons li {
+    .icon-grp li {
         display: inline-block;
     }
 
-    .social-icons li img {
+    .icon-grp li img {
         width: 30px;
     }
 
