@@ -586,19 +586,22 @@ figcaption {
    ====================================================== */
 
 .reviews {
+    position: relative;
     background-color: #000;
     background-image: url(../img/sf-paint-quote-bg.png);
     background-repeat: no-repeat;
     background-position: right -200px top -100px;
     width: 100%;
     color: #fff;
-    height: 300px;
-    padding: 50px 100px;
+    height: 335px;
+    padding: 50px 150px;
     margin: 100px auto;
 }
 
     .reviews p {
         font-size: 2em;
+        font-weight: 500;
+        line-height: 1.6em;
     }
 
     .reviews .h3-border {
@@ -610,7 +613,13 @@ figcaption {
         border-color: #fff;
     }
 
+    .reviews i {
+        position: absolute;
+        top: 45%;
+        right: 5%;
+        font-size: 3em;
 
+    }
 
 /* ======================================================
    Social Icons Section
@@ -621,7 +630,7 @@ figcaption {
     width: 80%;
     max-width: 1775px;
     margin: auto;
-    padding: 100px 50px 75px 0;
+    padding: 0px 50px 75px 0;
     border-bottom: 1px solid #000;
 }
 
@@ -655,7 +664,6 @@ img.footer-logo {
    ====================================================== */
 
 .page-footer {
-    padding: 25px 0;
     width: 80%;
     max-width: 1775px;
     margin: 0 auto;
