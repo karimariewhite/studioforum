@@ -213,6 +213,13 @@ figcaption {
     margin: 0 auto;
 }
 
+.page-section-less-padding {
+    padding: 100px 0;
+    width: 80%;
+    max-width: 1775px;
+    margin: 0 auto;
+}
+
 .dot-divider {
     background-image: url(../img/sf-paint-dots-p-500.png);
     background-repeat: repeat-x;
@@ -454,26 +461,27 @@ figcaption {
 
 .case-study {
     position: relative;
-    max-height: 575px;
-    margin-bottom: 200px;
+    background-image: url(../img/sf-case-study-jupiterresources-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    min-height: 575px;
+    overflow: hidden;
 }
 
     .case-study a {
         color: #000;
     }
 
-    .case-study img {
-        width: 100%;
-    }
-
 .link-box {
     position: absolute;
-    top: 20%;
-    left: 50px;
+    top: 50%;
+    right: 58%;
+    transform: translate(0,-50%);
     background-color: #fff;
     border-bottom: 15px solid #000;
-    padding: 50px;
-    width: 33%;
+    padding: 4em 4.5em 4em 4.5em;
+    width: 30%;
 }
 
 .link-box:hover {
@@ -494,9 +502,9 @@ figcaption {
 }
 
     .service-icons figure {
-        width: 30%;
+        width: 20%;
         float: left;
-        padding-right: 10px;
+        padding-right: 10%;
         margin: 0;
     }
 
