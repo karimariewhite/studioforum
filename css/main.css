@@ -526,6 +526,8 @@ figcaption {
 
 /* ======================================================
    Project Section
+
+   Help from: https://css-tricks.com/almanac/properties/o/object-fit/
    ====================================================== */
 
 .portfolio {
@@ -613,12 +615,21 @@ figcaption {
         border-color: #fff;
     }
 
-    .reviews i {
-        position: absolute;
-        top: 45%;
-        right: 5%;
-        font-size: 3em;
+    .reviews .button:hover {
+        border-color: #a2fdda;
+    }
 
+    .right-chevron {
+        position: absolute;
+        right: 10%;
+        top: 45%;
+        content: '';
+        display: block;
+        border-top: 0.18rem solid #fff;
+        border-right: 0.18rem solid #fff;
+        height: 18px;
+        width: 18px;
+        transform: rotate(45deg);
     }
 
 /* ======================================================
