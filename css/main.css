@@ -528,6 +528,20 @@ figcaption {
    Project Section
    ====================================================== */
 
+.portfolio {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.col-flex-3 {
+    max-width: 1500px;
+    display: flex;
+}
+
+.col-flex-3 a {
+    color: #fff;
+}
+
 .project {
     position: relative;
     display: flex;
@@ -539,11 +553,12 @@ figcaption {
         position: absolute;
         top: 0;
         left: 0;
-        padding: 50px;
+        padding: 40px 200px 30px 40px;
     }
 
-    .project img {
-        min-width: 100%;
+    .object-fit-cover {
+        object-fit: cover;
+        position: relative;
         z-index: -10;
     }
 
@@ -560,14 +575,11 @@ figcaption {
         border-color: #000;
     }
 
-.portfolio {
-    max-width: 1500px;
-    display: flex;
-}
+    .project-desc h2 {
+        font-size: 2em;
+    }
 
-.portfolio a {
-    color: #fff;
-}
+
 
 /* ======================================================
    Reviews Section
@@ -582,6 +594,7 @@ figcaption {
     color: #fff;
     height: 300px;
     padding: 50px 100px;
+    margin: 100px auto;
 }
 
     .reviews p {
@@ -596,6 +609,8 @@ figcaption {
         color: #fff;
         border-color: #fff;
     }
+
+
 
 /* ======================================================
    Social Icons Section
