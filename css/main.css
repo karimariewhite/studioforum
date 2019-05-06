@@ -147,7 +147,7 @@ h2, h3, h4, h5, h6 {
     }
 
 .small-header{
-    font-weight: 700;
+    font-weight: 600;
     font-size: 7pt;
     text-transform: uppercase;
     letter-spacing: .25em;
@@ -270,39 +270,35 @@ figcaption {
     z-index: 99;
 }
 
-.fb-icon-grey {
-    background-image: url(../img/sf_fb-grey.png);
+.fb-icon-grey,
+.tw-icon-grey,
+.insta-icon-grey {
     background-repeat: no-repeat;
     background-size: contain;
+    margin-bottom: 10px;
     width: 20px; 
     height: 20px;
 }
+
+    .fb-icon-grey {
+        background-image: url(../img/sf_fb-grey.png);
+    }
 
     .fb-icon-grey:hover {
         background-image: url(../img/sf_fb_mint.png);
     }
 
-.tw-icon-grey {
-    background-image: url(../img/sf_twitter-grey.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-bottom: 10px;
-    width: 20px; 
-    height: 20px;
-}
+    .tw-icon-grey {
+        background-image: url(../img/sf_twitter-grey.png);
+    }
 
     .tw-icon-grey:hover {
             background-image: url(../img/sf_twitter_mint.png);
     }
 
-.insta-icon-grey {
-    background-image: url(../img/sf_insta-grey.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-bottom: 10px;
-    width: 20px; 
-    height: 20px;
-}
+    .insta-icon-grey {
+        background-image: url(../img/sf_insta-grey.png);
+    }
 
     .insta-icon-grey:hover {
             background-image: url(../img/sf_insta_mint.png);
@@ -387,6 +383,7 @@ figcaption {
     top: .5em;
     left: 2.5%;
 }
+
 
 /* ======================================================
    Hero Section
@@ -782,6 +779,16 @@ ul.icon-grp {
     margin: 20px auto;
 }
 
+.footer-link {
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.page-footer .footer-link a:hover {
+    color: #a2fdda;
+    text-decoration: none;
+}
+
 .page-footer a {
     text-decoration: none;
     color: #000;
@@ -803,15 +810,11 @@ ul.icon-grp {
     padding-right: 0;
 }
 
-.footer-link {
-    font-weight: 600;
-    font-size: 1.25em;
-}
-
 .mint-hover-img {
     float: left;
     width: 30%;
     margin: 0 0 10px 10px;
+    transition: all 250ms ease;
 }
 
     .mint-hover-img img {
@@ -853,10 +856,17 @@ input[type=submit] {
     background-color: #000;
     color: #fff;
     text-align: left;
-    padding: 1em;
+    padding: 1em 2em;
     text-transform: uppercase;
     letter-spacing: .25em;
     font-size: .75em;
+    border: 0;
+    margin-top: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #a2fdda;
+    color: #fff;
 }
 
 /* ======================================================
@@ -892,14 +902,6 @@ input[type=submit] {
 .footer-bar a:hover {
     color: #fff;
 }
-
-/* ======================================================
-   Privacy Policy
-   ====================================================== */
-
-
-   
-
 
 /* ======================================================
    Special Classes
