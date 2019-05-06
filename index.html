@@ -77,7 +77,7 @@
       <div id="left-bar-social">
         <a href="#!"><div class="insta-icon-grey"></div></a>
         <a href="#!"><div class="tw-icon-grey"></div></a>
-        <a href="#!"><div class="fb-icon-grey"></div></a>
+        <a href="#!"><div class="fb-icon"></div></a>
       </div>
 
       <div id="left-bar-email">
@@ -231,15 +231,14 @@
 
     <div class="page-section-less-padding social-icons">
       <img class="footer-logo" src="img/studio-forum-logo.png" alt="Studio Forum Logo">
+      <div class="icon-grp-text"><p>@studio_forum</p></div>
       <ul class="icon-grp">
-        <li>@studio_forum</li>
-        <li><a href="#!"><img src="img/sf_insta_k.png" alt="Instragram Icon"></a></li>
-        <li><a href="#!"><img src="img/sf_twitter_k.png" alt="Twitter Icon"></a></li>
-        <li><a href="#!"><img src="img/sf_li_k.png" alt="LinkedIn Icon"></a></li>
-        <li><a href="#!"><img src="img/sf_fb_k.png" alt="Facebook Icon"></a></li>
-      </ul>
+        <li><a href="#!"><div class="insta-icon"></div></a></li>
+        <li><a href="#!"><div class="twitter-icon"></div></a></li>
+        <li><a href="#!"><div class="linkedin-icon"></div></a></li>
+        <li><a href="#!"><div class="fb-icon"></div></a></li>
+      </div>
     </div>
-
 
 
     <!-- ======================================================= Begin Footer --> 
@@ -247,34 +246,35 @@
 
       <section class="float-1-4-box">
         <p>We are a brand and communications studio in Calgary, Canada offering leading brand and design solutions. If you’re interested in a creative partner who’s as passionate about your company succeeding as you are, we should talk.</p>
-        <a href="#">info@studioforum.ca</a>
+        <a href="#!"><span class="footer-link">info@studioforum.ca</span></a>
       </section>
 
       <form class="float-1-4-box mailing-form" action="#" method="post">
         <h3><span class="small-header">Forum Musings</span></h3>
         <p>Join our mailing list for all things brand, design, strategy and business</p>
-        <p><span class="bold">Name:</span><br> <input type="text" name="name" required></p>
-        <p><span class="bold">Email Address:</span><br> <input type="text" name="email" required></p>
-        <p><input type="checkbox"> I would like to receive this e-newsletter</p>
-        <p><input type="submit" value="Submit"></p>   
+        <input type="text" name="name" placeholder="name" required><br>
+        <input type="text" name="email" placeholder="email" required>
+        <input type="radio">
+          <label type="radio">I would like to receive this e-newsletter</label>
+        <input type="submit" value="Submit">
       </form>
     
       <section class="float-1-4-box">
         <h3><span class="small-header">Studio Forum, Inc.</span></h3>
         <address>
-            #302 908 17 Ave SW, Calgary AB Canada, 
+            #302 908 17 Ave SW, Calgary AB Canada, <br>
             T2T 0A3
         </address>
 
-        <p>E. info@studioforum.ca</p>
-        <p>T. 403 669 3511</p>
-        <p>S. @studio_forum</p>
+        <p>E. <a href="mailto:#!">info@studioforum.ca</a><br>
+           T. <a href="#!">403 669 3511</a><br>
+          S. <a href="#!">@studio_forum</a></p>
       </section>
 
-      <div class="float-1-4-box">
+      <div class="float-1-4-box footer-social-feed">
           
         <a href="#!">
-          <div class="insta-icon">
+          <div class="mint-hover-img">
             <img src="img/insta_1.jpg" class="social-thumb" alt="mobile app Instagram Video">
           </div>
         </a>
@@ -310,7 +310,12 @@
         </a>
 
       </div>
+
     </footer> 
+
+    <footer class=footer-bar>
+      <p><span class="footer-bar-text">© STUDIO FORUM INC. 2019</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#!"><span class="footer-bar-text">Privacy Policy</span></a></p>
+    </footer>
 
   </main>
 

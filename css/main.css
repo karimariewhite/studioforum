@@ -147,7 +147,7 @@ h2, h3, h4, h5, h6 {
     }
 
 .small-header{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 7pt;
     text-transform: uppercase;
     letter-spacing: .25em;
@@ -328,6 +328,7 @@ figcaption {
     #left-bar-email a:hover {
         color: #a2fdda;
     }
+
 
 /* ======================================================
    Main Nav Styles 
@@ -692,7 +693,7 @@ figcaption {
     position: relative;
     width: 85%;
     margin: auto;
-    padding: 0px 50px 10px 0;
+    padding: 0px 0px 50px 0;
     border-bottom: 1px solid #000;
 }
 
@@ -701,24 +702,75 @@ img.footer-logo {
     float: left;
 }
 
-.icon-grp {
-    float: right;
+ul.icon-grp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    list-style-type: none;
     display: inline-block;
-    margin-right: 0;
+    margin: 0;
 }
 
-    .icon-grp ul {
-        list-style-type: none;
-        float: left;
+.icon-grp-text,
+.insta-icon,
+.twitter-icon,
+.linkedin-icon,
+.fb-icon {
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.icon-grp-text {
+    position: absolute;
+    top: 0;
+    right: 250px;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.icon-grp-text p {
+    margin: 0;
+}
+
+    .insta-icon {
+        background-image: url(../img/sf_insta_k.png);
     }
 
-    .icon-grp li {
-        display: inline-block;
+    .insta-icon:hover {
+        background-image: url(../img/sf_insta_mint.png);
     }
 
-    .icon-grp li img {
-        width: 30px;
+    .twitter-icon {
+        background-image: url(../img/sf_twitter_k.png);
     }
+
+    .twitter-icon:hover {
+        background-image: url(../img/sf_twitter_mint.png);
+    }
+
+    .linkedin-icon {
+        background-image: url(../img/sf_li_k.png);
+    }
+
+    .linkedin-icon:hover {
+        background-image: url(../img/sf_li_mint.png);
+    }
+
+    .fb-icon {
+        background-image: url(../img/sf_fb_k.png);
+    }
+
+    .fb-icon:hover {
+        background-image: url(../img/sf_fb_mint.png);
+    }
+
+
 
 
 /* ======================================================
@@ -727,14 +779,39 @@ img.footer-logo {
 
 .page-footer {
     width: 85%;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
+.page-footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+.page-footer a:hover {
+    text-decoration: underline;
+}
+
+.page-footer .float-1-4-box {
+    padding-right: 50px;
+}
+
+.mailing-form {
+    padding-right: 50px;
+}
+
+.page-footer .footer-social-feed {
+    padding-right: 0;
+}
+
+.footer-link {
+    font-weight: 600;
+    font-size: 1.25em;
+}
 
 .mint-hover-img {
     float: left;
     width: 30%;
-    margin: 0 10px 10px 0;
+    margin: 0 0 10px 10px;
 }
 
     .mint-hover-img img {
@@ -747,6 +824,81 @@ img.footer-logo {
         background-color: hsla(167, 100%, 50%, 0.53);
     }
 
+address {
+    font-style: normal;
+}
+
+
+
+/* ======================================================
+   Footer Form
+   ====================================================== */
+
+input[type=text] {
+    width: 100%;
+    border: 1px solid #000;
+    height: 2em;
+    margin-bottom: 1em;
+    padding: 12px;
+}
+
+::placeholder {
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    font-size: .5em;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+    padding: 1em;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    font-size: .75em;
+}
+
+/* ======================================================
+   Footer Bar
+   ====================================================== */
+
+.footer-bar {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #000;
+    color: #727272;
+    padding: 2px 7%;
+}
+
+.footer-bar p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.25em;
+}
+
+.footer-bar-text {
+    font-size: .4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+
+.footer-bar a {
+    text-decoration: none;
+    color: #727272;
+}
+
+.footer-bar a:hover {
+    color: #fff;
+}
+
+/* ======================================================
+   Privacy Policy
+   ====================================================== */
+
+
+   
 
 
 /* ======================================================
